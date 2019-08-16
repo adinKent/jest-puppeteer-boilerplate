@@ -1,0 +1,42 @@
+{
+  "name": "jest-puppeteer-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate of using jest and puppeteer to proceed E2E tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "test-debug": "yarn run test --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adinKent/jest-puppeteer-boilerplate.git"
+  },
+  "keywords": [
+    "jest",
+    "puppeteer",
+    "testing"
+  ],
+  "author": "Kent Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adinKent/jest-puppeteer-boilerplate/issues"
+  },
+  "homepage": "https://github.com/adinKent/jest-puppeteer-boilerplate#readme",
+  "devDependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.15.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.8.0",
+    "jest-puppeteer": "^4.3.0",
+    "puppeteer": "^1.19.0"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}

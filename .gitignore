@@ -1,0 +1,3 @@
+node_modules/*
+testReports/*
+yarn-error.log
